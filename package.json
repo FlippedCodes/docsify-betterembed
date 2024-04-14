@@ -5,7 +5,7 @@
   "main": "src/betterEmbed.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/827652549/docsify-count.git"
+    "url": "git+https://github.com/FlippedCodes/docsify-betterembed.git"
   },
   "keywords": [
     "docsify",
