@@ -46,6 +46,24 @@ If it doesn't the selector, it will embed the whole page. Aka you might have don
 
 - Because the selector is what decides the beginning and the end, you can nest and overlay the embed selections, however you like it.
 
+  ``` markdown
+  <!-- embed:start:expl3 -->
+  <!-- embed:start:expl1 -->
+
+  Very original stuff.
+
+  <!-- embed:start:expl2 -->
+
+  Oh, So much content
+
+  <!-- embed:end:expl1 -->
+
+  uhm.. hows your day?
+
+  <!-- embed:end:expl2 -->
+  <!-- embed:end:expl3 -->
+  ```
+
 ## Contributing
 
 I'm always happy, if someone has improvements to this little plugin. If you want to help, anything goes, but preferred is what is on the roadmap below or maybe discuss it as a GitHub issue first. ^^
