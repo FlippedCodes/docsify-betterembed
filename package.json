@@ -1,0 +1,19 @@
+{
+  "name": "docsify-betterembed",
+  "version": "1.0.0",
+  "description": "A docsify.js plugin to embed selective areas from another markdown file.",
+  "main": "src/betterEmbed.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/827652549/docsify-count.git"
+  },
+  "keywords": [
+    "docsify",
+    "docsify.js",
+    "plugin",
+    "embed",
+    "better embed"
+  ],
+  "author": "phil",
+  "license": "MIT"
+}
