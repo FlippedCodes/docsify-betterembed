@@ -4,7 +4,23 @@ A docsify.js plugin to embed selective areas from another markdown file.
 
 ## Installation
 
-WIP
+How to install this plugin.
+
+### Production
+
+For production, please use the numbered version to prevent breaking changes in production.
+
+``` html
+<script src="https://unpkg.com/docsify-betterembed@1.1.0/dist/betterEmbed.min.js"></script>
+```
+
+### Development
+
+If you are developing on a doc, you can use the latest. Make sure you switch it to production later, or the production one right away.
+
+``` html
+<script src="https://unpkg.com/docsify-betterembed@latest/dist/betterEmbed.min.js"></script>
+```
 
 ## Usage
 
@@ -25,18 +41,18 @@ WIP
 
     > [!IMPORTANT]
     > Make sure you respect the spaces between the comments and your content. It can mess with the html (specifically tables), if they are left out.
-2. Embed the the content like this:
+2. Embed the content like this:
 
    ``` markdown
    [Some Name](path/to/markdown/file/with/embed.md#exampleName ':include')
    ```
 
 --> The link will then be replaced with the content.
-If it doesn't the selector, it will embed the whole page. Aka you might have done something wrong.
+If it doesn't the selector, it will embed the whole page. Aka, you might have done something wrong.
 
 ### Tips
 
-- Setup 2 just converts to a different text, you can also use this to keep the link for markdown, vanilla-feeling:
+- Setup 2 just converts to a different text, you can also use this to keep the link for Markdown, vanilla-feeling:
   
   ``` markdown
   <!-- embedImport:start:exampleName -->
@@ -70,9 +86,9 @@ I'm always happy, if someone has improvements to this little plugin. If you want
 
 ### Roadmap
 
-Nothing much here, but im planning to add the following features at some point:
+Nothing much here, but I'm planning to add the following features at some point:
 
-- [ ] Support for [docsify-mustache](https://docsify-mustache.github.io) so docsify can have templates.
+- [ ] Support for [docsify-mustache](https://docsify-mustache.github.io) so Docsify can have proper templating.
 - [ ] Being able to use header as a selector and not use comments to mark the start and end.
 - [ ] Offset header levels to either fit the current layout, or being able to select it.
 
@@ -82,4 +98,4 @@ This repo is using the [MIT license](LICENSE).
 
 ## Credit
 
-Thanks to the [docsify.js](https://docsify.js.org/#/) team to make writing plugins so simple. I usually don't to front end, but this was a breeze to get working.
+Thanks to the [docsify.js](https://docsify.js.org/#/) team to make writing plugins so simple. I usually don't front end, but this was a breeze to get working.
