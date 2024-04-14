@@ -39,8 +39,9 @@ If you are developing on a doc, you can use the latest. Make sure you switch it 
    <!-- embed:end:exampleName -->
    ```
 
-    > [!IMPORTANT]
-    > Make sure you respect the spaces between the comments and your content. It can mess with the html (specifically tables), if they are left out.
+> [!IMPORTANT]
+> Make sure you respect the spaces between the comments and your content. It can mess with the html (specifically tables), if they are left out.
+
 2. Embed the content like this:
 
    ``` markdown
