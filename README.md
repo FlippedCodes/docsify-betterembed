@@ -11,7 +11,7 @@ How to install this plugin.
 For production, please use the numbered version to prevent breaking changes in production.
 
 ``` html
-<script src="https://unpkg.com/docsify-betterembed@1.1.0/dist/betterEmbed.min.js"></script>
+<script src="https://unpkg.com/docsify-betterembed@1.1.1/dist/betterEmbed.min.js"></script>
 ```
 
 ### Development
