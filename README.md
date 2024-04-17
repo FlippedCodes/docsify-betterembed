@@ -92,6 +92,7 @@ Nothing much here, but I'm planning to add the following features at some point:
 - [ ] Support for [docsify-mustache](https://docsify-mustache.github.io) so Docsify can have proper templating.
 - [ ] Being able to use header as a selector and not use comments to mark the start and end.
 - [ ] Offset header levels to either fit the current layout, or being able to select it.
+- [ ] Rewrite links to point at their embeded version (eg. Youtube)
 
 ## License
 
